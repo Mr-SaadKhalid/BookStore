@@ -1,0 +1,62 @@
+.contcatbg {
+    background-color: #ffffff;
+    padding: 90px 0;
+}
+.herobutton {
+    background-color: #44b89d;
+    color: white;
+    border: none;
+    padding-block: 1rem;
+    border-radius: 25px;
+}
+.herobutton:hover {
+    background-color: white;
+    color: #44b89d;
+    outline: 1px solid #44b89d;
+}
+.bgborder {
+    width: 100%;
+    border: 0;
+    height: 50px;
+    border-radius: 25px;
+    margin-bottom: 25px;
+    padding-left: 25px;
+    outline: none;
+    color: #101010;
+    background: #f1f1f1;
+}
+#contactimg {
+    height: auto;
+    width: 100%;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    #contactimg {
+       margin-top: 3rem;
+    }
+    h4 {
+        font-size: 2.5rem;
+        margin-bottom: 1rem;
+    }
+    .contcatbg {
+        padding: 70px 0;
+    }
+}
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) and (max-width: 767px) {
+    #contactimg {
+        margin-top: 3rem;
+     }
+     h4 {
+         font-size: 2.5rem;
+         margin-bottom: 1rem;
+     }
+     .contcatbg {
+         padding: 70px 0;
+     }
+}
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+
+}

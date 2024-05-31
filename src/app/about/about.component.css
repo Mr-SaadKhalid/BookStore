@@ -1,0 +1,75 @@
+.aboutbg {
+    background-color: #f5f6f9;
+    padding-block: 7rem;
+}
+.herobutton {
+    background-color: #44b89d;
+    color: white;
+    border: none;
+}
+.herobutton:hover {
+    background-color: white;
+    color: #44b89d;
+    outline: 1px solid #44b89d;
+}
+#aboutimg {
+    height : auto;
+    width: 100%;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .aboutbg {
+        padding-block: 4.5rem;
+    }
+    #aboutimg {
+        margin-bottom: 3rem;
+    }
+    h4 {
+        font-size: xx-large;
+        margin-bottom: 2rem;
+    }
+    p {
+        margin-bottom: 2rem;
+    }
+}
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) and (max-width: 767px) {
+    .aboutbg {
+        padding-block: 4.5rem;
+    }
+    #aboutimg {
+        margin-bottom: 3rem;
+    }
+    h4 {
+        font-size: xx-large;
+        margin-bottom: 2rem;
+    }
+    p {
+        margin-bottom: 2rem;
+    }
+}
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .aboutbg {
+        padding-block: 4.5rem;
+    }
+    #aboutimg {
+        margin-bottom: 3rem;
+    }
+    h4 {
+        font-size: xx-large;
+        margin-bottom: 2rem;
+    }
+    p {
+        margin-bottom: 2rem;
+    }
+}
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+
+}
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+
+}

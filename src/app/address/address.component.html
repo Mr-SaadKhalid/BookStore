@@ -1,0 +1,37 @@
+<div id="addresses" class="addressesbg">
+    <div class="container">
+        <div class="row align-items-center justify-content-center">
+            <div class="col-md-3">
+                <h4>About Us</h4>
+                <p>Vitae aut explicabo fugit facere alias distinctio, exem commodi mollitia minusem dignissimos atque asperiores incidunt vel voluptate iste</p>
+                <div class="d-flex">
+                    <i class="fa-brands fa-facebook-f insta"></i>
+                    <i class="fa-brands fa-instagram insta"></i>
+                    <i class="fa-brands fa-linkedin-in insta"></i>
+                    <i class="fa-brands fa-twitter insta"></i>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <h3>Address</h3>
+                <p>Location</p>
+                <p>call+954324648</p>
+                <p>demnogmail.com</p>
+            </div>
+            <div class="col-md-3">
+                <h4>Newsletter</h4>
+                <input type="text" name="" id="" class="bgborder" placeholder="Email"><br>
+                <button type="submit" class="herobutton">Subscribe</button>
+            </div>
+            <div class="col-md-3 map">
+                <div class="map-container">
+                    <google-map
+                      [center]="center"
+                      [zoom]="zoom"
+                      (mapClick)="moveMap($event)"
+                      (mapMousemove)="move($event)">
+                    </google-map>
+                  </div>
+            </div>
+        </div>
+    </div>
+</div>

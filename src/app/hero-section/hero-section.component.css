@@ -1,0 +1,49 @@
+.hero-bg {
+    background-color: #f5f6f9;
+    min-height: 100vh;
+}
+.heroheading {
+    color: #44b89d;
+}
+.herobutton {
+    background-color: #44b89d;
+    color: white;
+    border: none;
+}
+.herobutton:hover {
+    background-color: white;
+    color: #44b89d;
+    outline: 1px solid #44b89d;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .hero-bg {
+        padding-inline: 0.5rem;
+    }
+    #heroSectionCarousel {
+        flex-direction: column;
+    }
+    .row > div {
+        display: block !important;
+    }
+    h2 {
+        font-size: xx-large;
+    }
+}
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) and (max-width: 767px) {
+
+}
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+
+}
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+
+}
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+
+}
